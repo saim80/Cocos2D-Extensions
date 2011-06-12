@@ -35,7 +35,7 @@
 		scrollView.maxZoomScale  = 2.0f;
 		scrollView.minZoomScale  = 0.5f;
 		scrollView.contentSize   = CGSizeMake(1000.0f, 1000.0f); // You need to set contentSize to enable scrolling.
-		scrollView.bounces       = NO;
+//		scrollView.bounces       = NO;
 		layer.contentSize		 = scrollView.contentSize;
 		
 		[scrollView addChild:layer];

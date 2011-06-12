@@ -1,0 +1,14 @@
+README
+
+Cocos2D-Extensions
+Sangwoo Im
+
+Classes:
+SWScrollView: UIScrollView counterpart for cocos2d environment
+SWTableView: UITableView counterpart for cocos2d environment
+SWTableViewCell: Table view cell. override this to present your own cell contents.
+SWTableViewSpriteCell: An example to show how to override SWTableViewCell
+SWMultiColumnTableView: Multi-column table view
+CCNode+Autolayout: Support for layout mechanism which gets triggered automatically.
+Cocos2DViewController: Self-contained Cocos2D environment which supports all device orientations. Use the UIViewController way to limit orientation changes.
+

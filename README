@@ -11,4 +11,4 @@ SWTableViewSpriteCell: An example to show how to override SWTableViewCell
 SWMultiColumnTableView: Multi-column table view
 CCNode+Autolayout: Support for layout mechanism which gets triggered automatically.
 Cocos2DViewController: Self-contained Cocos2D environment which supports all device orientations. Use the UIViewController way to limit orientation changes.
-
+SWSorting: Sorting extensions to both NSArray and CCArray

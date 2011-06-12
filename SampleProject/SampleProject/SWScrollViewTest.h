@@ -11,6 +11,7 @@
 @class SWScrollView;
 
 @interface SWScrollViewTest : CCLayer {
+	CCLayerColor   *backgroundLayer;
     SWScrollView   *scrollView;
 	NSMutableArray *contents;
 }

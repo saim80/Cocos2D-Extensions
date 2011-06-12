@@ -49,6 +49,9 @@
 	}
 	
 	[self transform];
+	if ([self respondsToSelector:@selector(beforeDraw)]) {
+		[self performSelector:@selector(beforeDraw)];
+	}
 	
 	if(children_) {
 		ccArray *arrayData = children_->data;
@@ -74,7 +77,10 @@
 		
 	} else
 		[self draw];
-	
+		 
+	if ([self respondsToSelector:@selector(afterDraw)]) {
+		[self performSelector:@selector(afterDraw)];
+	}
 	if ( grid_ && grid_.active)
 		[grid_ afterDraw:self];
 	
